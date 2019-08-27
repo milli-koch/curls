@@ -57,8 +57,6 @@ YOU!
 
 4. [Variable not found "(?)"](https://dcl.dev.looker.com/explore/curls_training/order_items?qid=mYF3ZWbI2TrPNJicBfe8pF)
 
-5. [sql_always_where not working](https://dcl.dev.looker.com/explore/curls_training/order_items?qid=7MDSoLXERuSmjmx50Hd8rq&toggle=fil)
-
 
 ---
 

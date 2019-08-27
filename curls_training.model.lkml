@@ -11,15 +11,6 @@ datagroup: curls_training_default_datagroup {
 persist_with: curls_training_default_datagroup
 
 explore: order_items {
-
-  ## conditionally filter explore
-
-  sql_always_where: {% if orders.filter_value._value == 'Yes'  %}
-  ${id} > 10
-  {% else %}
-  1 = 1
-  {% endif %};;
-
   join: orders {
     type: left_outer
     sql_on: ${order_items.order_id} = ${orders.id} ;;
