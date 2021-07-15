@@ -36,6 +36,11 @@ view: order_items {
     sql: ${TABLE}.returned_at ;;
   }
 
+  dimension: returnedDate {
+    type: date
+    sql: ${TABLE}.returned_at ;;
+  }
+
 
 
 
